@@ -19,5 +19,5 @@ jobs:
           git merge ${{ github.ref }}
 
       - name: Push Changes
-      run: |
-        git push https://github.com/KwonBoWon/GitHubActionsTest.git main
+        run: |
+          git push https://github.com/KwonBoWon/GitHubActionsTest.git main
